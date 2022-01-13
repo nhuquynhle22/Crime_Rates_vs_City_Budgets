@@ -19,3 +19,4 @@ Questions we hope to answer with the data
 References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
+- https://www.kaggle.com/marshallproject/crime-rates
