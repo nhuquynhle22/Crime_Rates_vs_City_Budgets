@@ -4,8 +4,9 @@
 As a part of human society, crime is prevalent all over the world. The purpose of this project is to determine whether or not the crime rate rises or falls in relation to different police variables.
 
 Description of source of data 
-- City budgets 
-- Adult arrests by type of crime, age, gender and race
+- State/City budgets and finances
+- Crime rates
+- Poverty rates
 
 ## Objective
 The goal of this project is to analyze past and recent crime rates in major metropolitain areas to determine if there is correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
