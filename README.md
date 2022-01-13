@@ -17,6 +17,5 @@ Questions we hope to answer with the data
 
 
 References 
-- https://www.theguardian.com/us-news/ng-interactive/2015/jun/01/about-the-counted
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
