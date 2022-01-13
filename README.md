@@ -6,7 +6,7 @@ As a part of human society, crime is prevalent all over the world. The purpose o
 Description of source of data 
 - State/City budgets and finances
 - Crime rates
-- poverty rates
+- Poverty rates
 
 ## Objective
 The goal of this project is to analyze past and recent crime rates in major metropolitain areas to determine if there is correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
