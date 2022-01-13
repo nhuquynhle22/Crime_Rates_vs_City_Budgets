@@ -10,7 +10,7 @@ Description of source of data
 - Adult arrests by type of crime, age, gender and race
 
 ## Objective
-The goal of this project is to analyze past and recent crime rates in major metropolitain areas to determine if there is correlation between certain factors behind law enforcement and the rate of crime in particular areas.
+The goal of this project is to analyze past and recent crime rates in major metropolitain areas to determine if there is correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
 
 Questions we hope to answer with the data
 - Is there a correlation among victim demographics and police crimes? 
