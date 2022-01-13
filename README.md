@@ -1,9 +1,7 @@
 # Police-Crime-Rates-vs-City-Budgets
 
 ## Background 
-Crime is prevalent across the world, and it is an evident part of human society. The 
-purpose of this research is to find whether or not crime rate rises or falls in reaction to different police
-variables. 
+As a part of human society, crime is prevalent all over the world. The purpose of this project is to determine whether or not the crime rate rises or falls in relation to different police variables.
 
 Description of source of data 
 - City budgets 
