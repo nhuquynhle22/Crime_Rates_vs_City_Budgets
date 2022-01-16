@@ -9,3 +9,4 @@ We have decided to use Postgres to manage the databases.
 Machine learning will be built using Scikit.
 
 ## Dashboard
+The dashboard will be created using Tableau.
