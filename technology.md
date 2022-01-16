@@ -6,6 +6,6 @@ We will be utilizing Pandas to clean up and organize the data we obtained. We wi
 We have decided to use Postgres to manage the databases.
 
 ## Machine learning
-
+Machine learning will be built using Scikit.
 
 ## Dashboard
