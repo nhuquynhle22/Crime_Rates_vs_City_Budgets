@@ -31,8 +31,6 @@ TBA
 * Ramar - X : Main one who will decide which technologies will be used for each step of the project.
 All members of the group will help others in the group with input, analysis, and editing. 
 
->>>>>>> 654e1c20dfc9e516736cfd12ff37eca54f5090ad
-
 References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
