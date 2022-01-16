@@ -27,7 +27,7 @@ TBA
 
 * Nhu - Square : Main one responsible for the Github repository.
 * John - Triangle : Main one who will create a mockup of a machine learning model.
-* Austin - Circle : Main one who will create a mockup of a database with a set of sample data, or even fabricated data. 
+* Austin - Circle : Main one who will create a mockup of a database with a set of sample data. 
 * Ramar - X : Main one who will decide which technologies will be used for each step of the project.
 
 
