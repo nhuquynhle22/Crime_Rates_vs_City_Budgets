@@ -16,6 +16,24 @@ Questions we hope to answer with the data
 - What are the demographics of arrests made by police? 
 - Does the city budgets/government police funding have a relationship with poverty level?
 
+<<<<<<< HEAD
+=======
+## ERD
+
+## Machine Learning
+TBA
+
+## Database
+TBA
+
+## Team Members and Role Distribution
+* Nhu - Square : Main one responsible for the Github repository.
+* John - Triangle : Main one who will create a mockup of a machine learning model.
+* Austin - Circle : Main one who will create a mockup of a database with a set of sample data. 
+* Ramar - X : Main one who will decide which technologies will be used for each step of the project.
+All members of the group will help others in the group with input, analysis, and editing. 
+
+>>>>>>> 654e1c20dfc9e516736cfd12ff37eca54f5090ad
 
 References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
