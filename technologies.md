@@ -7,3 +7,6 @@ We have decided to use Postgres to manage the databases.
 
 ## Machine learning
 Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed.
+
+## Dashboard
+The dashboard will be created using Tableau.
