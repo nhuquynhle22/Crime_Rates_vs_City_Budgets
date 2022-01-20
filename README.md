@@ -14,7 +14,7 @@ The goal of this project is to analyze past and recent crime rates in major metr
 Questions we hope to answer with the data
 - Is there a correlation among victim demographics and police crimes? 
 - What are the demographics of arrests made by police? 
-- Does the city budgets/government police funding have a relationship with poverty level?
+- Does the poverty level for certan cities have a relationship with crime rates?
 
 ## Presentation 
 https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing
