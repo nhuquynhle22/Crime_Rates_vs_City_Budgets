@@ -16,6 +16,9 @@ Questions we hope to answer with the data
 - What are the demographics of arrests made by police? 
 - Does the city budgets/government police funding have a relationship with poverty level?
 
+## Presentations
+https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing
+
 ## ERD
 
 ## Machine Learning
@@ -35,3 +38,4 @@ References
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
 - https://www.kaggle.com/marshallproject/crime-rates
+- https://data.ers.usda.gov/reports.aspx?ID=17826
