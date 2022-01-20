@@ -16,7 +16,7 @@ Questions we hope to answer with the data
 - What are the demographics of arrests made by police? 
 - Does the city budgets/government police funding have a relationship with poverty level?
 
-## Presentations
+## Presentation 
 https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing
 
 ## ERD
