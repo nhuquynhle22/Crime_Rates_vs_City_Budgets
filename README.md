@@ -36,6 +36,5 @@ All members of the group will help others in the group with input, analysis, and
 
 References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
-- https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
-- https://www.kaggle.com/marshallproject/crime-rates
+- https://www.vera.org/publications/what-policing-costs-in-americas-biggest-cities
 - https://data.ers.usda.gov/reports.aspx?ID=17826
