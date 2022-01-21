@@ -14,7 +14,10 @@ The goal of this project is to analyze past and recent crime rates in major metr
 Questions we hope to answer with the data
 - Is there a correlation among victim demographics and police crimes? 
 - What are the demographics of arrests made by police? 
-- Does the city budgets/government police funding have a relationship with poverty level?
+- Does the poverty level for certan cities have a relationship with crime rates?
+
+## Presentation 
+https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing
 
 ## ERD
 
@@ -27,11 +30,13 @@ TBA
 ## Team Members and Role Distribution
 * Nhu - Square : Main one responsible for the Github repository.
 * John - Triangle : Main one who will create a mockup of a machine learning model.
-* Austin - Circle : Main one who will create a mockup of a database with a set of sample data. 
-* Ramar - X : Main one who will decide which technologies will be used for each step of the project.
+* Ramar - Circle : Main one who will create a mockup of a database with a set of sample data. 
+* Austin - X : Main one who will decide which technologies will be used for each step of the project.
+
 All members of the group will help others in the group with input, analysis, and editing. 
 
 References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
 - https://www.kaggle.com/marshallproject/crime-rates
+- https://data.ers.usda.gov/reports.aspx?ID=17826
