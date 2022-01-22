@@ -22,10 +22,10 @@ https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2Sii
 ## ERD
 
 ## Machine Learning
-TBA
+Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed to transform the data to create an intuitive representation for analysis. 
 
 ## Database
-TBA
+We have decided to use Postgres to manage the databases. Since the database allows us to us foreign keys, subqueries, large data sets, and different user-defined types and functions. Postgres is capable of writing large amounts of data more efficiently, and it can handle concurrency better.
 
 ## Team Members and Role Distribution
 * Nhu - Square : Main one responsible for the Github repository.
@@ -33,7 +33,10 @@ TBA
 * Ramar - Circle : Main one who will create a mockup of a database with a set of sample data. 
 * Austin - X : Main one who will decide which technologies will be used for each step of the project.
 
-All members of the group will help others in the group with input, analysis, and editing. 
+All members of the group will help others in with their respective roles with input, analysis, and editing. 
+
+## Communication Protocols
+We wil effectively communicate through Zoom and Slack to ensure all aspects of the projects are kept transparent. 
 
 References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
