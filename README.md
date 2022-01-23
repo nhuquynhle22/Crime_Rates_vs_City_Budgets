@@ -20,6 +20,7 @@ Questions we hope to answer with the data
 https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing
 
 ## ERD
+![erd](https://user-images.githubusercontent.com/89143725/150701200-906d3fd9-856c-40f5-86d5-70cd397ca764.png)
 
 ## Machine Learning
 Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utilized to transform the data to create an intuitive representation for analysis. 
