@@ -22,7 +22,7 @@ https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2Sii
 ## ERD
 
 ## Machine Learning
-Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed to transform the data to create an intuitive representation for analysis. 
+Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utilized to transform the data to create an intuitive representation for analysis. 
 
 ## Database
 We have decided to use Postgres to manage the databases. Since the database allows us to us foreign keys, subqueries, large data sets, and different user-defined types and functions. Postgres is capable of writing large amounts of data more efficiently, and it can handle concurrency better.
