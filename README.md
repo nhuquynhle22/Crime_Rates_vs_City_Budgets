@@ -41,6 +41,4 @@ We wil effectively communicate through Zoom and Slack to ensure all aspects of t
 
 References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
-- https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
-- https://www.kaggle.com/marshallproject/crime-rates
 - https://data.ers.usda.gov/reports.aspx?ID=17826
