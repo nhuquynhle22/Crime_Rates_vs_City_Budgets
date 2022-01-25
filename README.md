@@ -1,10 +1,10 @@
 # Police-Crime-Rates-vs-City-Budgets
 
 ## Background 
-As a part of human society, crime is prevalent all over the world. The purpose of this project is to determine whether or not the crime rate rises or falls in relation to different police variables.
+The police arrest someone every 3 seconds in the United States. More than 80 percent of all arrests nationwide are for low-level, nonviolent offenses. Nationally, the cost of policing is a staggering $115 billion per year. As a part of society, crime is prevalent all over the world. The purpose of this project is to determine whether or not the crime rate rises or falls in relation to different police variables.
 
 Description of source of data 
-- State/City budgets and finances
+- State police budgets and finances
 - Crime rates
 - Poverty rates
 
@@ -23,10 +23,10 @@ https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2Sii
 ![erd](https://user-images.githubusercontent.com/89143725/150903377-e404e9d7-c830-48d7-b365-0b6ef17d89bd.png)
 
 ## Machine Learning
-Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed.
+Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed. This will help transform the data to create an intuitive representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
 
 ## Database
-We have decided to use Postgres to manage the databases.
+We have decided to use PostgreSQL to manage the databases. It will provide support different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better.
 
 ## Team Members and Role Distribution
 * Nhu - Square : Main one responsible for the Github repository.
@@ -44,11 +44,9 @@ We will utilize Slack, GitHub, and Zoom to ensuree proper communication and tran
 - Pandas
 - Matplotlib 
 - Scikit-Learn
-- Postgres
+- PostgreSQL
 - Tableau
 
 ## References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
-- https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
-- https://www.kaggle.com/marshallproject/crime-rates
 - https://data.ers.usda.gov/reports.aspx?ID=17826
