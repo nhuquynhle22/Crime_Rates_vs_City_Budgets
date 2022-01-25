@@ -12,8 +12,8 @@ Description of source of data
 The goal of this project is to analyze past and recent crime rates in major metropolitain areas to determine if there is correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
 
 Questions we hope to answer with the data
-- Is there a correlation among victim demographics and police crimes? 
 - What are the demographics of arrests made by police? 
+- Does the city budgets/government police funding have a relationship with poverty level?
 - Does the poverty level for certan cities have a relationship with crime rates?
 
 ## Presentation 
