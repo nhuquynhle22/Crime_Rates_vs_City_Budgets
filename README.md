@@ -9,7 +9,7 @@ Description of source of data
 - Poverty rates
 
 ## Objective
-The goal of this project is to analyze past and recent crime rates in major metropolitain areas to determine if there is correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
+The goal of this project is to analyze past and recent crime rates in certain states of the US to determine if there is correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
 
 Questions we hope to answer with the data
 - Is there a correlation among victim demographics and police crimes? 
