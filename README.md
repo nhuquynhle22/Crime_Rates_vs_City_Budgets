@@ -20,12 +20,13 @@ Questions we hope to answer with the data
 https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing
 
 ## ERD
+![erd](https://user-images.githubusercontent.com/89143725/150903377-e404e9d7-c830-48d7-b365-0b6ef17d89bd.png)
 
 ## Machine Learning
-TBA
+Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed.
 
 ## Database
-TBA
+We have decided to use Postgres to manage the databases.
 
 ## Team Members and Role Distribution
 * Nhu - Square : Main one responsible for the Github repository.
@@ -35,7 +36,18 @@ TBA
 
 All members of the group will help others in the group with input, analysis, and editing. 
 
-References 
+## Communication Protocol
+We will utilize Slack, GitHub, and Zoom to ensuree proper communication and transparency throughout the project. 
+
+## Technologies used
+- Microsoft Excel
+- Pandas
+- Matplotlib 
+- Scikit-Learn
+- Postgres
+- Tableau
+
+## References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - https://www.kaggle.com/mathchi/violent-crime-rates-by-us-state
 - https://www.kaggle.com/marshallproject/crime-rates
