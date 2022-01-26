@@ -50,3 +50,4 @@ We will utilize Slack, GitHub, and Zoom to ensuree proper communication and tran
 ## References 
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - https://data.ers.usda.gov/reports.aspx?ID=17826
+- https://blog.cheapism.com/state-police-budget/#slide=1
