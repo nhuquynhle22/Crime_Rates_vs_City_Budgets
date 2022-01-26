@@ -21,7 +21,7 @@ https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2Sii
 
 
 ## Machine Learning
-Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed. This will help transform the data to create an intuitive representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
+Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
 
 ## Database
 We have decided to use PostgreSQL to manage the databases. It will provide support different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better.
@@ -49,6 +49,7 @@ We will utilize Slack, GitHub, and Zoom to ensuree proper communication and tran
 - Tableau
 
 ## References 
+- https://blog.cheapism.com/state-police-budget/#slide=1
 - https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - https://data.ers.usda.gov/reports.aspx?ID=17826
-- https://blog.cheapism.com/state-police-budget/#slide=1
+
