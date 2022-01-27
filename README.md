@@ -14,7 +14,6 @@ Questions we hope to answer with the data
 ## Presentation 
 https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing
 
-<<<<<<< HEAD
 ## ERD
 ![erd](https://user-images.githubusercontent.com/89143725/150701200-906d3fd9-856c-40f5-86d5-70cd397ca764.png)
 
@@ -67,4 +66,3 @@ Description of source of data
 - State police budgets:  https://blog.cheapism.com/state-police-budget/#slide=1
 - Crime rates: https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
 - Poverty rates:  https://data.ers.usda.gov/reports.aspx?ID=17826
->>>>>>> 05af9e9decc8ad27545b922b8dae2e857e10e199
