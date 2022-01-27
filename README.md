@@ -22,7 +22,7 @@ Machine learning will be built using Scikit. Unsupervised learning with a linear
 
 ## Database
 We have decided to use Postgres to manage the databases. Since the database allows us to us foreign keys, subqueries, large data sets, and different user-defined types and functions. Postgres is capable of writing large amounts of data more efficiently, and it can handle concurrency better.
-=======
+
 
 ## Machine Learning
 Machine learning will be built using Scikit. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
@@ -32,7 +32,7 @@ We have decided to use PostgreSQL to manage the databases. It will provide suppo
 
 ### ERD
 ![erd](https://user-images.githubusercontent.com/89143725/150903377-e404e9d7-c830-48d7-b365-0b6ef17d89bd.png)
->>>>>>> 05af9e9decc8ad27545b922b8dae2e857e10e199
+
 
 ## Team Members and Role Distribution
 * Nhu - Square : Main one responsible for the Github repository.
@@ -44,14 +44,6 @@ All members of the group will help others in with their respective roles with in
 
 ## Communication Protocols
 We wil effectively communicate through Zoom and Slack to ensure all aspects of the projects are kept transparent. 
-
-<<<<<<< HEAD
-References 
-- https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
-- https://data.ers.usda.gov/reports.aspx?ID=17826
-=======
-## Communication Protocol
-We will utilize Slack, GitHub, and Zoom to ensuree proper communication and transparency throughout the project. 
 
 ## Technologies used
 - Microsoft Excel
