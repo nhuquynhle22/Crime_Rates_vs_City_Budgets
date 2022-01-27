@@ -3,11 +3,6 @@
 ## Background 
 The police arrest someone every 3 seconds in the United States. More than 80 percent of all arrests nationwide are for low-level, nonviolent offenses. Nationally, the cost of policing is a staggering $115 billion per year. As a part of society, crime is prevalent all over the world. The purpose of this project is to determine whether or not the crime rate rises or falls in relation to different police variables.
 
-Description of source of data 
-- State police budgets and finances
-- Crime rates
-- Poverty rates
-
 ## Objective
 The goal of this project is to analyze past and recent crime rates in major metropolitain areas to determine if there is correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
 
@@ -21,7 +16,7 @@ https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2Sii
 
 
 ## Machine Learning
-Machine learning will be built using Scikit. Unsupervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
+Machine learning will be built using Scikit. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
 
 ## Database
 We have decided to use PostgreSQL to manage the databases. It will provide support different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better.
@@ -49,7 +44,7 @@ We will utilize Slack, GitHub, and Zoom to ensuree proper communication and tran
 - Tableau
 
 ## References 
-- https://blog.cheapism.com/state-police-budget/#slide=1
-- https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
-- https://data.ers.usda.gov/reports.aspx?ID=17826
-
+Description of source of data 
+- State police budgets:  https://blog.cheapism.com/state-police-budget/#slide=1
+- Crime rates: https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
+- Poverty rates:  https://data.ers.usda.gov/reports.aspx?ID=17826
