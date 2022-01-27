@@ -26,11 +26,11 @@ We will use the linear regression model on al the variable in our data to compar
 
 - Pros: 
 	
-	-Linear regression is straightforward to use and the output coefficients are easier to interpret.
+	- Linear regression is straightforward to use and the output coefficients are easier to interpret.
 	
 - Cons: 
 	
-	-Linear regression technique outliers can have huge effects on the regression and boundaries are linear in this technique.
+	- Linear regression technique outliers can have huge effects on the regression and boundaries are linear in this technique.
 	- Can sometimes over simplify real-world probelms by assuming a linerar relationship amoung variables 
 
 ## Database
