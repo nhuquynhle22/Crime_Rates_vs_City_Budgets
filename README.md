@@ -59,6 +59,6 @@ We wil effectively communicate through Zoom and Slack to ensure all aspects of t
 
 ## References 
 Description of source of data 
-- State police budgets:  https://blog.cheapism.com/state-police-budget/#slide=1
-- Crime rates: https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
-- Poverty rates:  https://data.ers.usda.gov/reports.aspx?ID=17826
+- FL county police budgets: http://edr.state.fl.us/Content/local-government/data/revenues-expenditures/stwidefiscal.cfm
+- Crime rates: https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data.aspx
+- Poverty rates: https://www.flhealthcharts.gov/ChartsReports/rdPage.aspx?rdReport=NonVitalIndRateOnly.TenYrsRpt&cid=461
