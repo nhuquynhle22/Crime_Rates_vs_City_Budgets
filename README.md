@@ -24,11 +24,9 @@ Our data conisits of three factors. Our independent variable which is the state 
 We will use the linear regression model on al the variable in our data to compare if there is or isnt a correlation between the two variables. 
 
 - Pros: 
-	
 	- Linear regression is straightforward to use and the output coefficients are easier to interpret.
 	
 - Cons: 
-	
 	- Linear regression technique outliers can have huge effects on the regression and boundaries are linear in this technique.
 	- Can sometimes over simplify real-world probelms by assuming a linerar relationship amoung variables 
 
