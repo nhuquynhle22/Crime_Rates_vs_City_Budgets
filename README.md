@@ -17,6 +17,18 @@ https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2Sii
 ## Machine Learning
 Machine learning will be built using Scikit. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
 
+### Preliminary Data Preprocessing
+Our data conisits of three factors. Our independent variable which is the state police budgets and our depedent variable entailing the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. 
+
+### Supervised Learning with Linear Regression 
+We will use the linear regression model on al the variable in our data to compare if there is or isnt a correlation between the two variables. 
+
+- Pros: 
+	- Linear regression is straightforward to use and the output coefficients are easier to interpret.
+	
+- Cons: 
+	- Linear regression technique outliers can have huge effects on the regression and boundaries are linear in this technique.
+	- Can sometimes over simplify real-world probelms by assuming a linerar relationship amoung variables 
 ## Database
 We have decided to use PostgreSQL to manage the databases. It will provide support different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL.
 
