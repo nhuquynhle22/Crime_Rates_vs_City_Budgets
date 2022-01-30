@@ -37,6 +37,17 @@ We have decided to use PostgreSQL to manage the databases. It will provide suppo
 ### ERD
 ![erd](https://user-images.githubusercontent.com/89143725/150903377-e404e9d7-c830-48d7-b365-0b6ef17d89bd.png)
 
+## Dashboard
+When creating the dashboard, we decided to use Tableau to help visualize and present our data. The dashboard will consist of a interactive filter that will show case the differences of crime rate depending on which socioeconomic factor the user chooses. The dashboard will also show our machine learning analysis to see which counties are affected the most. 
+
+### Link for dashboard storyboard
+
+[Police Spending and Crime Story board](https://docs.google.com/presentation/d/1JqX4atsFnJJ7g-ms5xk1mAIK2zY70GrhxdmXWlAuouE/edit?usp=sharing)
+
+### Link to Tableau Public
+
+[Police Spending and Crime Tableau](https://public.tableau.com/views/Policespendingandcrime/PovertyCrimes?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 
 ## Team Members and Role Distribution
 * Nhu - Square : Main one responsible for the Github repository.
@@ -56,9 +67,11 @@ We wil effectively communicate through Zoom and Slack to ensure all aspects of t
 - Scikit-Learn
 - PostgreSQL
 - Tableau
+- SQLAlchemy
 
 ## References 
-Description of source of data 
-- State police budgets:  https://blog.cheapism.com/state-police-budget/#slide=1
-- Crime rates: https://www.kaggle.com/jpmiller/police-violence-in-the-us?select=deaths_arrests.csv
-- Poverty rates:  https://data.ers.usda.gov/reports.aspx?ID=17826
+Our data will focus primarily on the counties of Florida maily the factors regarding: 
+- State police budgets:  http://edr.state.fl.us/Content/local-government/data/revenues-expenditures/stwidefiscal.cfm
+- Crime rates: https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data.aspx
+- Poverty rates:  https://www.flhealthcharts.gov/ChartsReports/rdPage.aspx?rdReport=NonVitalIndRateOnly.TenYrsRpt&cid=461
+
