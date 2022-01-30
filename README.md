@@ -67,6 +67,7 @@ We wil effectively communicate through Zoom and Slack to ensure all aspects of t
 - Scikit-Learn
 - PostgreSQL
 - Tableau
+- SQLAlchemy
 
 ## References 
 Our data will focus primarily on the counties of Florida maily the factors regarding: 
