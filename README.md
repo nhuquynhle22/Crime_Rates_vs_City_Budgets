@@ -40,6 +40,15 @@ We have decided to use PostgreSQL to manage the databases. It will provide suppo
 ## Dashboard
 When creating the dashboard, we decided to use Tableau to help visualize and present our data. The dashboard will consist of a interactive filter that will show case the differences of crime rate depending on which socioeconomic factor the user chooses. The dashboard will also show our machine learning analysis to see which counties are affected the most. 
 
+### Link for dashboard storyboard
+
+[Police Spending and Crime Story board](https://docs.google.com/presentation/d/1JqX4atsFnJJ7g-ms5xk1mAIK2zY70GrhxdmXWlAuouE/edit?usp=sharing)
+
+### Link to Tableau Public
+
+[Police Spending and Crime Tableau](https://public.tableau.com/views/Policespendingandcrime/PovertyCrimes?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+
 ## Team Members and Role Distribution
 * Nhu - Square : Main one responsible for the Github repository.
 * John - Triangle : Main one who will create a mockup of a machine learning model.
