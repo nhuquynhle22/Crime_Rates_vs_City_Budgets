@@ -32,7 +32,9 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 	- Can sometimes over simplified to capture real-world probelms by assuming a linerar relationship among variables 
 	- Outliers can have an significant effect on the output
 ## Database
-We have decided to use PostgreSQL to manage the databases. It will provide support different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL.
+We have decided to use PostgreSQL to manage the databases. It will provide support of different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL. For our project we joined the county crime rates and poverty rates together to create our database. We then added the county spending rates to that exported file.  
+
+![sql_tables](https://user-images.githubusercontent.com/89143725/151711564-b1e02c8a-d7ae-4146-beb4-41e1b3d3157c.png)
 
 ### ERD
 ![ERD](https://user-images.githubusercontent.com/89143725/151710745-1a1a72c3-9ebd-4494-b6f3-88c3bade427d.png)
