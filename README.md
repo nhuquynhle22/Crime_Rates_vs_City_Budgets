@@ -12,7 +12,7 @@ Questions we hope to answer with the data
 - Does the poverty level for certan cities have a relationship with crime rates?
 
 ## Presentation 
-https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing
+[Final presentation](https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing)
 
 ## Machine Learning
 Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
@@ -32,7 +32,9 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 	- Can sometimes over simplified to capture real-world probelms by assuming a linerar relationship among variables 
 	- Outliers can have an significant effect on the output
 ## Database
-We have decided to use PostgreSQL to manage the databases. It will provide support different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL.
+We have decided to use PostgreSQL to manage the databases. It will provide support of different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL. For our project we joined the county crime rates and poverty rates together to create our database. We then added the county spending rates to that exported file.  
+
+![sql_tables](https://user-images.githubusercontent.com/89143725/151711564-b1e02c8a-d7ae-4146-beb4-41e1b3d3157c.png)
 
 ### ERD
 ![ERD](https://user-images.githubusercontent.com/89143725/151710745-1a1a72c3-9ebd-4494-b6f3-88c3bade427d.png)
@@ -62,6 +64,7 @@ All members of the group will help others in with their respective roles with in
 We wil effectively communicate through Zoom and Slack to ensure all aspects of the projects are kept transparent. 
 
 ## Technologies used
+- Jupyter Notebook
 - Microsoft Excel
 - Pandas
 - Matplotlib 
@@ -75,4 +78,3 @@ Our data will focus primarily on the counties of Florida maily the factors regar
 - State police budgets:  http://edr.state.fl.us/Content/local-government/data/revenues-expenditures/stwidefiscal.cfm
 - Crime rates: https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data.aspx
 - Poverty rates:  https://www.flhealthcharts.gov/ChartsReports/rdPage.aspx?rdReport=NonVitalIndRateOnly.TenYrsRpt&cid=461
-
