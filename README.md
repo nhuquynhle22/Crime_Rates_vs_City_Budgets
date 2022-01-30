@@ -64,6 +64,7 @@ All members of the group will help others in with their respective roles with in
 We wil effectively communicate through Zoom and Slack to ensure all aspects of the projects are kept transparent. 
 
 ## Technologies used
+- Jupyter Notebook
 - Microsoft Excel
 - Pandas
 - Matplotlib 
@@ -77,4 +78,3 @@ Our data will focus primarily on the counties of Florida maily the factors regar
 - State police budgets:  http://edr.state.fl.us/Content/local-government/data/revenues-expenditures/stwidefiscal.cfm
 - Crime rates: https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data.aspx
 - Poverty rates:  https://www.flhealthcharts.gov/ChartsReports/rdPage.aspx?rdReport=NonVitalIndRateOnly.TenYrsRpt&cid=461
-
