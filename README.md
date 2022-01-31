@@ -18,7 +18,7 @@ Questions we hope to answer with the data
 Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
 
 ### Preliminary Data Preprocessing
-Our data consists of three factors. Our independent variable which is the state police budgets and our depedent variable entailing the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. But before we do that we need to upload our datasets into our database. After joining the datasets we will then connect it to our machine learning model where we chose to do supervised learning with linear regression. 
+Our data consists of three factors. Our independent variable which is the state police budgets and our dependent variables, which are the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. But before we do that we need to upload our datasets into our database. After joining the datasets we will then connect it to our machine learning model where we chose to do supervised learning with linear regression. 
 
 ### Supervised Learning with Linear Regression 
 While using Jupyter notebook with the help of SciKit-Learn we were able to create our training datasets to run with our model. We then will use the linear regression model on training data in our dataset to compare if there is or isnt a correlation between the two variables. 
