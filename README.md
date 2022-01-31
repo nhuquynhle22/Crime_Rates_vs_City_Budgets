@@ -32,7 +32,7 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 	- Can sometimes over simplified to capture real-world probelms by assuming a linerar relationship among variables 
 	- Outliers can have an significant effect on the output
 ## Database
-We have decided to use PostgreSQL to manage the databases. It will provide support of different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL. For our project we joined the county crime rates, county spending, and poverty rates together to create our database.
+We have decided to use PostgreSQL to manage the databases. It will provide support of different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL. For our project we joined the county crime rates, county spending, and poverty rates together to create our database. After combining the datasets we were then able to connect it to our machine learning model to run a linear regression to see if there are any patterns within the dataset. 
 
 ![combined tables](https://user-images.githubusercontent.com/89143725/151714156-5e662ee0-5f21-4e6f-9922-388e65611502.png)
 
