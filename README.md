@@ -18,7 +18,7 @@ Questions we hope to answer with the data
 Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
 
 ### Preliminary Data Preprocessing
-Our data conisits of three factors. Our independent variable which is the state police budgets and our depedent variable entailing the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. But before we do that we need to upload our datasets into our database. After joining the datasets we will then connect it to our machine learning model where we chose to do supervised learning with linear regression. 
+Our data consists of three factors. Our independent variable which is the state police budgets and our dependent variables, which are the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. But before we do that we need to upload our datasets into our database. After joining the datasets we will then connect it to our machine learning model where we chose to do supervised learning with linear regression. 
 
 ### Supervised Learning with Linear Regression 
 While using Jupyter notebook with the help of SciKit-Learn we were able to create our training datasets to run with our model. We then will use the linear regression model on training data in our dataset to compare if there is or isnt a correlation between the two variables. 
@@ -32,7 +32,7 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 	- Can sometimes over simplified to capture real-world probelms by assuming a linerar relationship among variables 
 	- Outliers can have an significant effect on the output
 ## Database
-We have decided to use PostgreSQL to manage the databases. It will provide support of different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL. For our project we joined the county crime rates, county spending, and poverty rates together to create our database.
+We have decided to use PostgreSQL to manage the databases. It will provide support of different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL. For our project we joined the county crime rates, county spending, and poverty rates together to create our database. After combining the datasets we were then able to connect it to our machine learning model to run a linear regression to see if there are any patterns within the dataset. 
 
 ![combined tables](https://user-images.githubusercontent.com/89143725/151714156-5e662ee0-5f21-4e6f-9922-388e65611502.png)
 
