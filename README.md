@@ -1,7 +1,7 @@
 # Police-Crime-Rates-vs-City-Budgets
 
 ## Background 
-The police arrest someone every 3 seconds in the United States. More than 80 percent of all arrests nationwide are for low-level, nonviolent offenses. Nationally, the cost of policing is a staggering $115 billion per year. As a part of society, crime is prevalent all over the world. The purpose of this project is to determine whether or not the crime rate rises or falls in relation to different police variables.
+The police arrest someone every 3 seconds in the United States. More than 80 percent of all arrests nationwide are for low-level, nonviolent offenses. Nationally, the cost of policing is a staggering $115 billion per year. As a part of society, crime is prevalent all over the world. The purpose of this project is to determine whether or not police spending has an effect on certain societal factors. 
 
 ## Objective
 The goal of this project is to analyze past and recent crime rates in certain states of the US to determine if there is a correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
@@ -23,7 +23,7 @@ We have decided to use PostgreSQL and AWS to manage the databases. PostgresSQL w
 ![ERD](https://user-images.githubusercontent.com/89143725/151710745-1a1a72c3-9ebd-4494-b6f3-88c3bade427d.png)
 
 ## Machine Learning
-Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utilized. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification. 
+Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utilized. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification. After realizing the linear regression model might not be the best fit model to accurately test our dataset, we decided to run our dataset through another model specifically the Decision tree regressor. 
 
 ### Preliminary Data Preprocessing
 Our data consists of three factors. Our independent variable is the state police budgets and our dependent variable entails the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. 
@@ -40,10 +40,29 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 	- Can sometimes be oversimplified to capture real-world problems by assuming a linear relationship among variables 
 	- Outliers can have a significant effect on the output
 
+### Decision Tree Regressor
+A decision tree builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while simultaneously constructing an associated decision tree. For our dataset, it will allow solving regression problems. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.
+
+- Pros:
+	- A decision tree is one of the quickest ways to identify relationships between variables and the most significant variable
+	- Aren't largely influenced by outliers or missing values, and it can handle both numerical and categorical variables
+
+- Cons: 
+	- It tends to overfit
+	- Can sometimes be unstable if small changes are made
+
+
 ## Analysis 
 
 ### Linear Regression Analysis 
-After running the variables of crime rates to police spending into the linear regression model, the model coefficient was -0.52579153. In a regression with a single independent variable, the coefficient tells you how much the dependent variable is expected to increase (if the coefficient is positive) or decrease (if the coefficient is negative) when that independent variable increases by one. For our data the interpretation is that police spending per capita increases the crime rate decreases, therefore having an inverse relationship with each other. 
+
+![crime vs spening linear regression](https://user-images.githubusercontent.com/89143725/152275151-7fc5c1fe-845c-4e7d-af99-aaf511fd10f9.png)
+![Spending vs crime t-test](https://user-images.githubusercontent.com/89143725/152269215-5dd16cf9-71ba-42bc-ae1e-af7491a44fca.png)
+
+In a regression with a single independent variable, the coefficient tells you how much the dependent variable is expected to increase (if the coefficient is positive) or decrease (if the coefficient is negative) when that independent variable increases by one. After running the varaibles of crime rates to police spending into the linear regression model, the model coefficient was -0.52579153.  For our data the interpretation is that police spending per capita increases the crime rate decreases, therefore having an inverse relationship with each other. 
+
+
+![poverty vs spending linear regression](https://user-images.githubusercontent.com/89143725/152275182-b30b04b6-5e59-4e0f-aec4-b8784d60f265.png)![Spending vs poverty t-test](https://user-images.githubusercontent.com/89143725/152269203-4006c925-8ae1-491d-8e91-8efbb0657671.png)
 
 After running the variables of poverty rates to police spending into the linear regression model, the model coefficient was -0.0123. The interpretation was the same as the variables above. There is an inverse relationship between police spending per capita and poverty rates. As police spending increases, the poverty rate decreases, depending on the county. 
 
@@ -51,6 +70,7 @@ The problems we encountered while running both datasets with the linear regressi
 
 ### OLS T-test Analysis
 A one-sample t-test is used to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset. Generally, any t-value greater than +2 or less than – 2 is acceptable. The higher the t-value, the greater the confidence we have in the coefficient as a predictor. As for p-value, it will indicate whether these relationships are statistically significant. The t-test reults were :
+
 	- Crime rate as dependent variable:
 		- T-value: -0.634
 		- P-value: 0.528
@@ -59,7 +79,13 @@ A one-sample t-test is used to determine whether there is a statistical differen
 		- T-value: -1.464
 		- P-value: 0.148
 
-Since both of the p-values of each test is greater than 0.05, we can conclude that the results are not significant. The results we gathered have a probability of being random a 52.8% random for the crimes rates vs. police spending and 14.8% random for the poverty rates vs. police spending.
+Since both of the p-values of each test is greater than 0.05, we can conclude that the results are not significant. The results we gathered have a probability of being random of 52.8% random for the crimes rates vs. police spending and 14.8% random for the poverty rates vs. police spending.
+
+### Decision Tree Regressor Analysis
+
+![decision tree r2 score](https://user-images.githubusercontent.com/89143725/152275000-1b39b929-dc4f-4be2-9cbd-8e3880e725c6.png)
+
+After running our dataset through the decision tree regressor, the r-squared value came out to be -0.445. It can be concluded that there is a weak correlation between the variables.  
 
 ## Dashboard
 When creating the dashboard, we decided to use Tableau to help visualize and present our data. The dashboard will consist of an interactive filter that will showcase how the effects of police spending on the certain socioeconomic factors the user chooses. The dashboard will also show our machine learning analysis to see which counties are affected the most. 
@@ -78,18 +104,22 @@ When creating the dashboard, we decided to use Tableau to help visualize and pre
 * Ramar - Circle: Main one who will create a mockup of a database with a set of sample data. 
 * Austin - X: Main one who will decide which technologies will be used for each step of the project.
 
-All members of the group will help others in with their respective roles with input, analysis, and editing. 
+All members of the group will help others with their respective roles with input, analysis, and editing. 
 
-## Technologies used
-- Jupyter Notebook
+## Technologies & Algorithms Used 
 - Microsoft Excel
 - Pandas
-- Matplotlib 
+- Matplotlib
 - Scikit-Learn
 - PostgreSQL
+- AWS
 - Tableau
 - SQLAlchemy
-- AWS
+- Jupyter Notebook
+- Linear Regression Model
+- Random Forest Classifier
+- Decision Tree Regressor
+- One Sample T-test
 
 ## References 
 Our data will focus primarily on the counties of Florida mainly the factors regarding: 
