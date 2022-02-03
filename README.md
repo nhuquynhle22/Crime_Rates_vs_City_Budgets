@@ -23,7 +23,7 @@ We have decided to use PostgreSQL and AWS to manage the databases. PostgresSQL w
 ![ERD](https://user-images.githubusercontent.com/89143725/151710745-1a1a72c3-9ebd-4494-b6f3-88c3bade427d.png)
 
 ## Machine Learning
-Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification. 
+Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification. After realizing the linear regression model might not be the best fit model to accurately test our dataset, we decided to run our dataset through a another model specifically the Decision tree regressor. 
 
 ### Preliminary Data Preprocessing
 Our data conisits of three factors. Our independent variable which is the state police budgets and our depedent variable entailing the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. 
@@ -40,6 +40,18 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 	- Can sometimes over simplified to capture real-world probelms by assuming a linerar relationship among variables 
 	- Outliers can have an significant effect on the output
 
+### Decision Tree Regressor
+A decision tree builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while simultaneously constructing an associated decision tree. For out dataset it will allow to solve regression problems. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.
+
+- Pros:
+	- A decision tree is one of the quickest ways to identify relationships between variables and the most significant variable
+	- Aren't largely influenced by outliers or missing values, and it can handle both numerical and categorical variables
+
+- Cons: 
+	- It tends to overfitting
+	- Can sometimes be unstable if small changes are made
+
+
 ## Analysis 
 
 ### Linear Regression Analysis 
@@ -47,7 +59,7 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 
 ![Spending vs crime t-test](https://user-images.githubusercontent.com/89143725/152269215-5dd16cf9-71ba-42bc-ae1e-af7491a44fca.png)
 
-After running the the varaibles of crime rates to police spending into the linear regression model, the model coefficient was -0.52579153. In a regression with a single independent variable, the coefficient tells you how much the dependent variable is expected to increase (if the coefficient is positive) or decrease (if the coefficient is negative) when that independent variable increases by one. For our data the interpretation is that police spening per capita increases the crime rate decreases, therefor having an inverse relationship with each other. 
+In a regression with a single independent variable, the coefficient tells you how much the dependent variable is expected to increase (if the coefficient is positive) or decrease (if the coefficient is negative) when that independent variable increases by one. After running the the varaibles of crime rates to police spending into the linear regression model, the model coefficient was -0.52579153.  For our data the interpretation is that police spening per capita increases the crime rate decreases, therefor having an inverse relationship with each other. 
 
 
 ![Spending vs poverty t-test](https://user-images.githubusercontent.com/89143725/152269203-4006c925-8ae1-491d-8e91-8efbb0657671.png)
@@ -69,6 +81,9 @@ A one-sample t-test is used to determine whether there is a statistical differen
 
 Since both of the p-values of each test is greater than 0.05, we can conclude that the results are not significant. The results we gathered has a proability of being randon of 52.8% random for the crimes rates vs. police spending and 14.8% random for the poverty rates vs. police spedning.
 
+### Decision Tree Regressor Analysis
+After running our dataset through the decision tree regressor, the r-squared value came out to be -0.445. It can be concluded that there is a weak correlation between the variables.  
+
 ## Dashboard
 When creating the dashboard, we decided to use Tableau to help visualize and present our data. The dashboard will consist of a interactive filter that will show case the differences of crime rate depending on which socioeconomic factor the user chooses. The dashboard will also show our machine learning analysis to see which counties are affected the most. 
 
@@ -88,16 +103,20 @@ When creating the dashboard, we decided to use Tableau to help visualize and pre
 
 All members of the group will help others in with their respective roles with input, analysis, and editing. 
 
-## Technologies used
-- Jupyter Notebook
+## Technologies & Algorithms Used 
 - Microsoft Excel
 - Pandas
-- Matplotlib 
+- Matplotlib
 - Scikit-Learn
 - PostgreSQL
+- AWS
 - Tableau
 - SQLAlchemy
-- AWS
+- Jupyter Notebook
+- Linear Regression Model
+- Random Forest Classifier
+- Decision Tree Regressor
+- One Sample T-test
 
 ## References 
 Our data will focus primarily on the counties of Florida maily the factors regarding: 
