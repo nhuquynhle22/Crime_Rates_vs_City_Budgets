@@ -43,7 +43,14 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 ## Analysis 
 
 ### Linear Regression Analysis 
+
+
+![Spending vs crime t-test](https://user-images.githubusercontent.com/89143725/152269215-5dd16cf9-71ba-42bc-ae1e-af7491a44fca.png)
+
 After running the the varaibles of crime rates to police spending into the linear regression model, the model coefficient was -0.52579153. In a regression with a single independent variable, the coefficient tells you how much the dependent variable is expected to increase (if the coefficient is positive) or decrease (if the coefficient is negative) when that independent variable increases by one. For our data the interpretation is that police spening per capita increases the crime rate decreases, therefor having an inverse relationship with each other. 
+
+
+![Spending vs poverty t-test](https://user-images.githubusercontent.com/89143725/152269203-4006c925-8ae1-491d-8e91-8efbb0657671.png)
 
 After running the the varaibles of poverty rates to police spending into the linear regression model, the model coefficient was -0.0123. The interpretation was the same as the variables above. There is a inverse relationship with the police spending per capita and poverty rates. As the police spending increase, the poverty rate decreases, depending on the county. 
 
@@ -51,6 +58,7 @@ The problems we encountered while running both datasets with the linear regressi
 
 ### OLS T-test Analysis
 A one-sample t-test is used to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset. Generally, any t-value greater than +2 or less than – 2 is acceptable. The higher the t-value, the greater the confidence we have in the coefficient as a predictor. As for p-vaule, it will indicate whether these relationships are statistically significant. The t-test reults were :
+
 	- Crime rate as dependent variable:
 		- T-value: -0.634
 		- P-value: 0.528
