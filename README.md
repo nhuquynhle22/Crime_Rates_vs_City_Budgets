@@ -14,14 +14,22 @@ Questions we hope to answer with the data
 ## Presentation 
 [Final presentation](https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing)
 
+## Database
+We have decided to use PostgreSQL and AWS to manage the databases. PostgresSQL will provide support of different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL. As for AWS, it will allows us to make relational database (RDS) that can be accessible to everyone on the team and others. For our project we joined the county crime rates and poverty rates together to create our database. We then added the county spending rates to that exported file.  
+
+![sql_tables](https://user-images.githubusercontent.com/89143725/151711564-b1e02c8a-d7ae-4146-beb4-41e1b3d3157c.png)
+
+### ERD
+![ERD](https://user-images.githubusercontent.com/89143725/151710745-1a1a72c3-9ebd-4494-b6f3-88c3bade427d.png)
+
 ## Machine Learning
-Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification.
+Machine learning will be built using Scikit-Learn. Supervised learning with a linear regression model will be utiliezed. This will help transform the data to create an interpretable representation for analysis and to determine patterns in a grouping of data, rather than to predict a classification. 
 
 ### Preliminary Data Preprocessing
-Our data consists of three factors. Our independent variable which is the state police budgets and our dependent variables, which are the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. But before we do that we need to upload our datasets into our database. After joining the datasets we will then connect it to our machine learning model where we chose to do supervised learning with linear regression. 
+Our data conisits of three factors. Our independent variable which is the state police budgets and our depedent variable entailing the crime and poverty rates. We will then compare how our independent variable affects the dependent variable using a linear regression model. 
 
 ### Supervised Learning with Linear Regression 
-While using Jupyter notebook with the help of SciKit-Learn we were able to create our training datasets to run with our model. We then will use the linear regression model on training data in our dataset to compare if there is or isnt a correlation between the two variables. 
+While using Jupyter notebook with the help of SciKit-Learn we were able to create our datasets to run with our model. We then will use the linear regression model on training data in our dataset to compare if there is or isnt a correlation between the two variables. 
 
 - Pros: 
 	- Linear regression is straightforward to use and the output coefficients are easier to interpret
@@ -31,14 +39,27 @@ While using Jupyter notebook with the help of SciKit-Learn we were able to creat
 	- Linear regression technique outliers can have huge effects on the regression and boundaries are linear in this technique
 	- Can sometimes over simplified to capture real-world probelms by assuming a linerar relationship among variables 
 	- Outliers can have an significant effect on the output
-## Database
-We have decided to use PostgreSQL to manage the databases. It will provide support of different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions. It wil be capable of writing large amounts of data more efficiently, and will handle concurrency better than SQL. For our project we joined the county crime rates, county spending, and poverty rates together to create our database. After combining the datasets we were then able to connect it to our machine learning model to run a linear regression to see if there are any patterns within the dataset. 
 
-![combined tables](https://user-images.githubusercontent.com/89143725/151714156-5e662ee0-5f21-4e6f-9922-388e65611502.png)
+## Analysis 
 
-### ERD
-![ERD](https://user-images.githubusercontent.com/89143725/151710745-1a1a72c3-9ebd-4494-b6f3-88c3bade427d.png)
+### Linear Regression Analysis 
+After running the the varaibles of crime rates to police spending into the linear regression model, the model coefficient was -0.52579153. In a regression with a single independent variable, the coefficient tells you how much the dependent variable is expected to increase (if the coefficient is positive) or decrease (if the coefficient is negative) when that independent variable increases by one. For our data the interpretation is that police spening per capita increases the crime rate decreases, therefor having an inverse relationship with each other. 
 
+After running the the varaibles of poverty rates to police spending into the linear regression model, the model coefficient was -0.0123. The interpretation was the same as the variables above. There is a inverse relationship with the police spending per capita and poverty rates. As the police spending increase, the poverty rate decreases, depending on the county. 
+
+The problems we encountered while running both datasets with the linear regression model were due to the outliers in the dataset while also having a small dataset. We noticed that two points in the dataset were far more skewed than the rest, resulting in the accuracy of the model to be questioned. In the future to negate that probelm, instead of testng for one year there should be either more years to test or an average collection of years to test. That way the numbers are a more accurate representation to test. 
+
+### OLS T-test Analysis
+A one-sample t-test is used to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset. Generally, any t-value greater than +2 or less than – 2 is acceptable. The higher the t-value, the greater the confidence we have in the coefficient as a predictor. As for p-vaule, it will indicate whether these relationships are statistically significant. The t-test reults were :
+	- Crime rate as dependent variable:
+		- T-value: -0.634
+		- P-value: 0.528
+
+	- Poverty rate as dependent variable:
+		- T-value: -1.464
+		- P-value: 0.148
+
+Since both of the p-values of each test is greater than 0.05, we can conclude that the results are not significant. The results we gathered has a proability of being randon of 52.8% random for the crimes rates vs. police spending and 14.8% random for the poverty rates vs. police spedning.
 
 ## Dashboard
 When creating the dashboard, we decided to use Tableau to help visualize and present our data. The dashboard will consist of a interactive filter that will show case the differences of crime rate depending on which socioeconomic factor the user chooses. The dashboard will also show our machine learning analysis to see which counties are affected the most. 
@@ -51,7 +72,6 @@ When creating the dashboard, we decided to use Tableau to help visualize and pre
 
 [Police Spending and Crime Tableau](https://public.tableau.com/views/Policespendingandcrime/PovertyCrimes?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-
 ## Team Members and Role Distribution
 * Nhu - Square : Main one responsible for the Github repository.
 * John - Triangle : Main one who will create a mockup of a machine learning model.
@@ -59,9 +79,6 @@ When creating the dashboard, we decided to use Tableau to help visualize and pre
 * Austin - X : Main one who will decide which technologies will be used for each step of the project.
 
 All members of the group will help others in with their respective roles with input, analysis, and editing. 
-
-## Communication Protocols
-We wil effectively communicate through Zoom and Slack to ensure all aspects of the projects are kept transparent. 
 
 ## Technologies used
 - Jupyter Notebook
@@ -72,9 +89,10 @@ We wil effectively communicate through Zoom and Slack to ensure all aspects of t
 - PostgreSQL
 - Tableau
 - SQLAlchemy
+- AWS
 
 ## References 
 Our data will focus primarily on the counties of Florida maily the factors regarding: 
-- State police spending (per capitia):  http://edr.state.fl.us/Content/local-government/data/revenues-expenditures/stwidefiscal.cfm
+- State police budgets:  http://edr.state.fl.us/Content/local-government/data/revenues-expenditures/stwidefiscal.cfm
 - Crime rates: https://www.fdle.state.fl.us/FSAC/Data-Statistics/UCR-Offense-Data.aspx
 - Poverty rates:  https://www.flhealthcharts.gov/ChartsReports/rdPage.aspx?rdReport=NonVitalIndRateOnly.TenYrsRpt&cid=461
