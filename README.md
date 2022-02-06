@@ -1,15 +1,15 @@
 # Police-Crime-Rates-vs-City-Budgets
 
 ## Background 
-The police arrest someone every 3 seconds in the United States. More than 80 percent of all arrests nationwide are for low-level, nonviolent offenses. Nationally, the cost of policing is a staggering $115 billion per year. As a part of society, crime is prevalent all over the world. The purpose of this project is to determine whether or not police spending has an effect on certain societal factors. 
+The police arrest someone every 3 seconds in the United States. "More than 80 percent of all arrests nationwide are for low-level, nonviolent offenses. Nationally, the cost of policing is a staggering $115 billion per year." As a part of society, crime is prevalent all over the world. The purpose of this project is to determine whether or not police spending has an effect on certain societal factors. 
 
 ## Objective
-The goal of this project is to analyze past and recent crime rates in certain states of the US to determine if there is a correlation between certain factors behind law enforcement and the rate of crime in the respective areas.
+The goal of this project is to analyze recent crime rates in Florida countys to see if there is a correlation with their socioeconomic factors. 
 
 Questions we hope to answer with the data
 - What are the demographics of arrests made by police? 
 - Does the city budgets/government police funding have a relationship with the poverty level?
-- Does the poverty level for certain cities have a relationship with crime rates?
+- Does the poverty level for certain counties have a relationship with crime rates?
 
 ## Presentation 
 [Final presentation](https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing)
