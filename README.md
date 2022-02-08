@@ -6,10 +6,11 @@ The police arrest someone every 3 seconds in the United States. "More than 80 pe
 ## Objective
 The goal of this project is to analyze recent crime rates in Florida countys to see if there is a correlation with their socioeconomic factors. 
 
-Questions we hope to answer with the data
-- What are the demographics of arrests made by police? 
-- Does the city budgets/government police funding have a relationship with the poverty level?
-- Does the poverty level for certain counties have a relationship with crime rates?
+Questions we hope to answer with the data:
+- To determine if a relationship exists between police budgets per capita and crime rates.
+
+- To determine if a relationship exists between police budgets per capita and poverty rates.
+
 
 ## Presentation 
 [Final presentation](https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing)
