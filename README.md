@@ -56,7 +56,6 @@ A decision tree builds regression or classification models in the form of a tree
 	- It tends to overfit
 	- Can sometimes be unstable if small changes are made
 
-
 ## Analysis 
 
 ### Linear Regression Analysis 
@@ -105,6 +104,7 @@ When creating the dashboard, we decided to use Tableau to help visualize and pre
 ### Link to Tableau Public
 
 [Police Spending and Crime Tableau](https://public.tableau.com/views/Policespendingandcrime/PovertyCrimes?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 
 ## Team Members and Role Distribution
 * Nhu - Square: Main one responsible for the Github repository.
