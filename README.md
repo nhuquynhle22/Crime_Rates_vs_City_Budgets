@@ -97,14 +97,9 @@ Since the p-values for the models were higher than significance level of  0.05 (
 ## Dashboard
 When creating the dashboard, we decided to use Tableau to help visualize and present our data. The dashboard will consist of an interactive filter that will showcase  the effects of police spending on the certain socioeconomic factors the user chooses. The dashboard will also show our machine learning analysis to see which counties are affected the most. 
 
-### Link for dashboard storyboard
-
-[Police Spending and Crime Story board](https://docs.google.com/presentation/d/1JqX4atsFnJJ7g-ms5xk1mAIK2zY70GrhxdmXWlAuouE/edit?usp=sharing)
 
 ### Link to Tableau Public
-
 [Police Spending and Crime Tableau](https://public.tableau.com/views/Policespendingandcrime/PovertyCrimes?:language=en-US&:display_count=n&:origin=viz_share_link)
-
 
 ### Link to Google Slides presentation of visualizations
 [Police Spending and Crime Slides](https://docs.google.com/presentation/d/1LYJrpBUI581ivz5SQTaxNwJcDvGMmIbdd7gtpuLLkl4/edit?usp=sharing)
