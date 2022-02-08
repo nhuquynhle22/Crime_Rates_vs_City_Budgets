@@ -11,6 +11,10 @@ Questions we hope to answer with the data:
 
 - To determine if a relationship exists between police budgets per capita and poverty rates.
 
+## Hypothesis
+Null hypothesis: There is no relationship between police budgets and crime rates among Florida counties
+
+Alternative hypothesis: There is a relationship between police budgets and crime rates among Florida counties
 
 ## Presentation 
 [Final presentation](https://docs.google.com/presentation/d/1R5_IDDx9LBjyG7tb2m5ulQ8CUO6cMXgIEpRF2SiivBs/edit?usp=sharing)
@@ -88,8 +92,11 @@ Since both of the p-values of each test is greater than 0.05, we can conclude th
 
 After running our dataset through the decision tree regressor, the r-squared value came out to be -0.445. It can be concluded that there is a weak correlation between the variables.  
 
+## Results
+Since the p-values for the models were higher than significance level of  0.05 (> 0.05) is not statistically significant and indicates strong evidence for the null hypothesis. This means we retain the null hypothesis and reject the alternative hypothesis. Having a negative r-squared value also means a poor fit model. 
+
 ## Dashboard
-When creating the dashboard, we decided to use Tableau to help visualize and present our data. The dashboard will consist of an interactive filter that will showcase how the effects of police spending on the certain socioeconomic factors the user chooses. The dashboard will also show our machine learning analysis to see which counties are affected the most. 
+When creating the dashboard, we decided to use Tableau to help visualize and present our data. The dashboard will consist of an interactive filter that will showcase  the effects of police spending on the certain socioeconomic factors the user chooses. The dashboard will also show our machine learning analysis to see which counties are affected the most. 
 
 ### Link for dashboard storyboard
 
