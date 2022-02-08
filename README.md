@@ -106,6 +106,9 @@ When creating the dashboard, we decided to use Tableau to help visualize and pre
 [Police Spending and Crime Tableau](https://public.tableau.com/views/Policespendingandcrime/PovertyCrimes?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
+### Link to Google Slides presentation of visualizations
+[Police Spending and Crime Slides](https://docs.google.com/presentation/d/1LYJrpBUI581ivz5SQTaxNwJcDvGMmIbdd7gtpuLLkl4/edit?usp=sharing)
+
 ## Team Members and Role Distribution
 * Nhu - Square: Main one responsible for the Github repository.
 * John - Triangle: Main one who will create a mockup of a machine learning model.
