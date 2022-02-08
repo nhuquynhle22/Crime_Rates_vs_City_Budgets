@@ -92,7 +92,7 @@ Since both of the p-values of each test is greater than 0.05, we can conclude th
 
 After running our dataset through the decision tree regressor, the r-squared value came out to be -0.445. It can be concluded that there is a weak correlation between the variables.  
 
-## Results
+## Conclusion
 Since the p-values for the models were higher than significance level of  0.05 (> 0.05) is not statistically significant and indicates strong evidence for the null hypothesis. This means we retain the null hypothesis and reject the alternative hypothesis. Having a negative r-squared value also means a poor fit model. 
 
 ## Dashboard
