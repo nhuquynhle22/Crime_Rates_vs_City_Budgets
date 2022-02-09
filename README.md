@@ -99,7 +99,8 @@ When creating the dashboard, we decided to use Tableau to help visualize and pre
 
 
 ### Link to Tableau Public
-[Police Spending and Crime Tableau](https://public.tableau.com/views/Policespendingandcrime/PovertyCrimes?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Police Spending and Crime Tableau](https://public.tableau.com/views/Policespendingandcrime/PoliceSpendingStory?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 
 ### Link to Google Slides presentation of visualizations
 [Police Spending and Crime Slides](https://docs.google.com/presentation/d/1LYJrpBUI581ivz5SQTaxNwJcDvGMmIbdd7gtpuLLkl4/edit?usp=sharing)
