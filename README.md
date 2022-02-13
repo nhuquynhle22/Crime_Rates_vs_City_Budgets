@@ -1,4 +1,4 @@
-#Crime-Rates-vs-City-Budgets
+#Crime-Rates-vs-County-Budgets
 
 ## Background 
 The police arrest someone every 3 seconds in the United States. "More than 80 percent of all arrests nationwide are for low-level, nonviolent offenses. Nationally, the cost of policing is a staggering $115 billion per year." As a part of society, crime is prevalent all over the world. The purpose of this project is to determine whether or not police spending has an effect on certain societal factors. 
