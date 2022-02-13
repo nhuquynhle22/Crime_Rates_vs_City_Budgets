@@ -4,7 +4,7 @@
 The police arrest someone every 3 seconds in the United States. "More than 80 percent of all arrests nationwide are for low-level, nonviolent offenses. Nationally, the cost of policing is a staggering $115 billion per year." As a part of society, crime is prevalent all over the world. The purpose of this project is to determine whether or not police spending has an effect on certain societal factors. 
 
 ## Objective
-The goal of this project is to analyze recent crime rates in Florida countys to see if there is a correlation with their socioeconomic factors. 
+The goal of this project is to analyze recent crime rates in Florida counties to see if there is a correlation with their socioeconomic factors. 
 
 Questions we hope to answer with the data:
 - To determine if a relationship exists between police budgets per capita and crime rates.
